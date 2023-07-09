@@ -15,7 +15,7 @@ const isValid = (value) => {
 }
 
 //singUp function for store user data
-const singUp = async (req, res) => {
+const signUp = async (req, res) => {
     try {
         //validation for checking input body ,if body is empty it will send error.
         if (!isrequestBody(req.body)) {
@@ -99,5 +99,5 @@ const signIn=async(req,res)=>{
 
 }
 
-module.exports.singUp=singUp
+module.exports.signUp=signUp
 module.exports.signIn=signIn
