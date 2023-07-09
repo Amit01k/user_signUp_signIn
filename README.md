@@ -95,6 +95,13 @@ $ npm start
 - On a successful login attempt return a JWT token contatining the userId, exp, iat. The response should be a JSON object like [this](#successful-response-structure-for-login)
 - If the credentials are incorrect return a suitable error message with a valid HTTP status code. The response should be a JSON object like [this](#error-response-structure)
 
+### input for sign-in user
+```yaml
+{
+    "email": "enter valid emil",
+    "password": "enter correct password"
+}
+```
 ### Successful Response structure For Login
 ```yaml
 {
