@@ -6,7 +6,7 @@
 $ git clone https://github.com/Amit01k/user_signUp_signIn.git
 ```
 
-### Open Appointment_booking Folder
+### Open user_signUp_signIn Folder
 ```sh
 $ cd user_signUp_signIn
 ```
